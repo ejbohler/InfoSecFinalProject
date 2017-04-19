@@ -41,3 +41,15 @@ who's doing what or how we want to divide the workload.
    three separate pages, 1 each for hashing, encryption, and decryption?
   A text input box to either type or cut and paste into will probably be the easiest; do we want to try to have a file
     input also or instead?
+
+
+I think this will be the easiest algorithm to implement, with a single switch statement for encryption and one for decryption. 
+The switch would have ~40 cases.
+
+Replace characters using this randomly chosen new alphabet
+	All unrepresented characters will remain the same as the original
+	The space is intentionally representing a character, and will be replaced as shown
+AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz 1234567890.!?
+w3FPa rV9.fgWJ6AUz14Mm?lQE257CXuZ!0sLNty8hIYvxSTcDGbnOHikpqBdejKoR
+I am encrypting this message. Can you decrypt it?  
+Un3En.5 sDuyz5JnyAzNnE.NN3J.na35nDChnV. sDuynzyR
