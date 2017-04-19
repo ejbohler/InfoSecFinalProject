@@ -14,3 +14,30 @@
 Hi guys! I am available Monday and Wednesday after class 12:15PM or whenever it ends and I believe that's pretty much it. 
 Tuesday, Thursday, and Friday I work, so it is sort of hard to meet up unless we can just break it down on here to see
 who's doing what or how we want to divide the workload. 
+
+4/19 Eric
+  We will need to:
+  1. determine an algorithm
+    I will get this posted soon.
+  2. Write a program that implements the algorithm in PHP and HTML
+    a. make a web form
+      i. input text area for plaintext to be encrypted or ciphertext to be decrypted
+      ii. display text area to output encrypted or decrypted text
+      iii. Button to hash
+      iv. button to encrypt
+      v. button to decrypt
+    b. add hashing functionality
+      i. probably using sha2()
+    c. add encryption functionality
+      i. we will have to figure out how to implement the algorithm in php
+    d. add decryption functionality
+      i. we will have to figure out how to reverse the algorithm in php
+    e. debug
+  3. Style the program using CSS
+  
+  I believe that is all. 
+  Do we want to allow a user to input a key? 
+  Do we want to have one page which can manipulate the input in any of three ways, or have an index with links to 
+   three separate pages, 1 each for hashing, encryption, and decryption?
+  A text input box to either type or cut and paste into will probably be the easiest; do we want to try to have a file
+    input also or instead?
